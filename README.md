@@ -18,7 +18,7 @@ npm run snapshot
 mv __screenshots__ __snapshot/expected
 ```
 
-2. 意図的にビジュアルリグレッションを作る
+2. 意図的にビジュアルリグレッションを作る  
 /src/components/atoms/Button/index.ts
 ```
 const ModuleStyle = css`
@@ -61,7 +61,7 @@ npm run e2e-test
 mv e2etest/screenshot e2etest/expected
 ```
 
-2. 意図的にビジュアルリグレッションを作る
+2. 意図的にビジュアルリグレッションを作る  
 /src/components/atoms/Button/index.ts
 ```
 const ModuleStyle = css`
