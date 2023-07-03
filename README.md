@@ -58,7 +58,7 @@ npm run dev
 npm run e2e-test
 
 // 期待値としてディレクトリを改名
-mv e2etest/screenshot e2etest/expected
+mv __e2etest/screenshot __e2etest/expected
 ```
 
 2. 意図的にビジュアルリグレッションを作る  
