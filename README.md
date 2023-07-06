@@ -5,7 +5,7 @@ npm run stroybook
 
 # Jest + Testing Library 
 ```
-npm run test
+npm run jest-test
 ```
 
 # snapshot撮る
