@@ -6,7 +6,7 @@ test('has title', async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
   //表示中の画面の全体のスクリーンショットをとる
-  await page.screenshot({ path: 'e2etest/screenshot/test-all.png', fullPage: true });
+  await page.screenshot({ path: '__e2etest/screenshot/test-all.png', fullPage: true });
 
   // Expect a title "to contain" a substring.
   // await expect(page).toHaveTitle(/Playwright/);

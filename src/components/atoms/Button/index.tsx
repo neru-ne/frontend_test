@@ -11,6 +11,7 @@ type Props = {
 const ModuleStyle = css`
   display: inline-block;
   padding: 0.5em 2em;
+  /* padding: 0.5em 2.1em; */
   border-radius: 1em;
   text-align: center;
   cursor: pointer;
